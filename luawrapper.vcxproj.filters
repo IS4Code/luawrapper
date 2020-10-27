@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{7dc64468-15d7-4481-a9cc-9c7f073db1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d4dcd0c6-8329-484a-94fb-9c50ad67247e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\lua5.3">
+      <UniqueIdentifier>{099b93b0-33ba-4170-9a8f-b6d0fd5e23f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\lua5.1">
+      <UniqueIdentifier>{d9b883b8-e56c-4aac-be4f-4a8fed977400}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\lua5.1\lauxlib.h">
+      <Filter>lib\lua5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.1\lua.h">
+      <Filter>lib\lua5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.1\luaconf.h">
+      <Filter>lib\lua5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.1\lualib.h">
+      <Filter>lib\lua5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.3\lauxlib.h">
+      <Filter>lib\lua5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.3\lua.h">
+      <Filter>lib\lua5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.3\luaconf.h">
+      <Filter>lib\lua5.3</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\lua5.3\lualib.h">
+      <Filter>lib\lua5.3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\exports.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
